@@ -15,6 +15,12 @@ body > header {
 	border-bottom: none !important;
 }
 
+body > *:not(header) {
+	max-width: 69em;
+	width: 96%;
+	margin: auto;
+}
+
 body > header::before {
 	content: "";
 	background-image: url(flatt_fjell.svg);
