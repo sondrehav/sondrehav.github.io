@@ -16,9 +16,9 @@ body > header {
 }
 
 body > *:not(header) {
-	max-width: 69em;
-	width: 96%;
-	margin: auto;
+	max-width: 69em !important;
+	width: 96% !important;
+	margin: auto !important;
 }
 
 body > header::before {
