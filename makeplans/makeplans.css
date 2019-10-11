@@ -4,7 +4,7 @@ body {
 	max-width: unset;
 }
 
-header {
+body > header {
 	position: relative;
 	background-color: rgba(207, 230, 193, 0.35) !important;
 	height: 141px !important;
@@ -15,7 +15,7 @@ header {
 	border-bottom: none !important;
 }
 
-header::before {
+body > header::before {
 	content: "";
 	background-image: url(flatt_fjell.svg);
 	width: 100%;
