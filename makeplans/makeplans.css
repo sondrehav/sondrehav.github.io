@@ -51,6 +51,7 @@ aside, .logo {
 	align-items: center !important;
 	justify-content: space-between !important;
 	height: unset !important;
+	float: unset !important;
 }
 
 #select-service > li > * {
@@ -64,4 +65,45 @@ aside, .logo {
 #select-service > li > *:first-child {
   	flex-grow: 1;
   	text-align: center;
-} 
+}
+.main {
+	background-color: rgba(207, 230, 193, 0.35) !important;
+	border-radius: 0 !important;
+}
+button, .button-previous {
+	border-radius: 0px !important;
+	background: unset !important;
+	color: black !important;
+	text-shadow: none !important;
+	margin: 8px !important;
+	padding: 8px !important;
+	float: unset !important;
+	height: unset !important;
+}
+.button-previous > *, button > * {
+	background: unset !important;
+	position: unset !important;
+	padding: unset !important;
+	margin: auto !important;
+	font-size: 14px;
+	height: unset !important;
+	text-transform: none !important;
+	line-height: 42px !important;
+}
+#step-up{
+	margin: unset !important;
+	text-align: unset !important;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+}
+
+button {
+	border: 5px solid #003d77 !important;
+}
+.button-previous {
+	border: 5px solid #f0ece6 !important;
+}
+.datebutton {
+	border: none !important;
+}
