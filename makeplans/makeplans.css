@@ -80,6 +80,7 @@ button, .button-previous {
 	float: unset !important;
 	height: unset !important;
 }
+
 .button-previous > *, button > * {
 	background: unset !important;
 	position: unset !important;
