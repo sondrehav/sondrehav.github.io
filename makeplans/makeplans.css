@@ -1,3 +1,7 @@
+.ui-widget-header {
+	background: none !important;
+	background-color: rgba(207, 230, 193, 0.75);
+}
 
 body {
 	width: unset;
