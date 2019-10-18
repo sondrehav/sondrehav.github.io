@@ -1,4 +1,5 @@
 .ui-widget-header {
+	background: none;
 	background-color: #b1be9b;
 }
 
@@ -113,7 +114,7 @@ button, .button-previous {
 button {
 	border: 5px solid #003d77 !important;
 }
-.button-previous {
+.button-previous, input, textarea {
 	border: 5px solid #f0ece6 !important;
 }
 .datebutton {
