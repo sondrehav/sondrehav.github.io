@@ -1,6 +1,14 @@
 .ui-widget-header {
 	background: none !important;
-	background-color: rgba(207, 230, 193, 0.75);
+	background-color: #b1be9b;
+}
+
+.ui-datepicker-header * {
+	color:;
+}
+
+.ui-datepicker-title * {
+	text-shadow: none
 }
 
 body {
